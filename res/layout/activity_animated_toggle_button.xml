@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android" 
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:gravity="center"
+     android:background="@android:color/black">
+
+    <org.garrapeta.commons.AnimatedToggleButton
+        android:id="@+id/animated_toggle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textOn="on"
+        android:textOff="off"
+        android:textColor="@color/animated_toggle_btn"
+        android:background="@drawable/animated_toggle_btn"
+        transitionAnimation="@anim/animated_toggle_btn_transition"
+        commitAnimation="@anim/animated_toggle_btn_commit"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Commit checked change"
+        android:onClick="commitStateChange"
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel checked change"
+        android:onClick="cancelStateChange"
+    />
+    
+ </LinearLayout>
+ 

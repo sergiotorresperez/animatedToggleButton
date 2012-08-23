@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">AnimatedToggleButton</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_animated_toggle_button">AnimatedToggleButtonActivity</string>
+
+</resources>
